@@ -1,0 +1,111 @@
+---
+title: "Sampling of papers for survey (2024)"
+author: "Bartosz Maćkiewicz"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(bib2df) # for importing bibtex file
+library(tidyverse) # for general data manipulation
+```
+
+# Preparation of the data
+
+1. We load data from PhilPapers "experimental philosophy" category (curated by James Andow) downloaded at 2021-02-03 01:44 GMT+1. This file was downloaded in the BibTeX format and reformatted with `biber.
+
+```{r}
+data <- bib2df("experimental_philosophy_philpapers_13_01_2025_bibertool.bib")
+data$AUTHOR <- stringi::stri_c_list(data$AUTHOR, sep=", ")
+```
+
+2. Next, we filter out all papers that are not released yet (forthcoming, manuscript, unknow) and papers which has not valid year of publication.
+
+```{r}
+data <- data %>% 
+  filter(!DATE %in% c("forthcoming", "manuscript", "unknown")) %>% 
+  mutate(year = as.numeric(DATE)) %>% # converting from character to numeric
+  filter(year >= 2007 & year <= 2024) # before manifesto we do not expect proper x-phi
+```
+
+3. Plot of all papers in our sampling frame
+
+```{r}
+ggplot(data = data) + 
+  geom_bar(aes(x=year), stat = "count")
+```
+
+```{r}
+pander::pander(table(data$DATE))
+```
+
+4. Cut data into 5 bins according to date of publication:
+- bin 1: [2007-2009]
+- bin 2: [2010-2012] 
+- bin 3: [2013-2015]
+- bin 4: [2016-2018]
+- bin 5: [2019-2021] (will be sampled in the future)
+- bin 6: [2012-2023] (will be sampled in the future)
+
+```{r}
+# A function to help with binning 
+bin_helper <- function(x, min, max, num){
+  y_range <- max-min+1
+  if (y_range %% num != 0){
+    error("Year range not divisible by number of bins")
+  }
+  bin_width <- y_range / num
+  for (b in 0:(num-1)){
+    if ((x >= min + b * bin_width) & (x < min + (b+1) * bin_width)){
+      return(b+1)
+    }
+  }
+  return(NA)
+}
+
+data$bin <- sapply(data$year, bin_helper, 2007, 2024, 6)
+```
+
+5. Plot number of papers in each bin.
+
+```{r}
+ggplot(data = data) + 
+  geom_bar(aes(x=bin), stat = "count")
+```
+
+```{r}
+pander::pander(table(data$bin))
+```
+
+5. Permute papers within each bin. Save the results to XLSX file and CSV file. 
+First $n=50$ from each bin that meet our criteria are included in the study.
+
+```{r}
+data <- data[!is.na(data$bin), ]
+groups <- split(data, data$bin)
+set.seed(54321)
+for (bin in names(groups)[1:4]){ # bins 5 and 6 will be drawn later
+  permuted <- sample_frac(groups[[bin]], 1)
+  cat(paste0("Bin number: ", bin, "\n"))
+  cat(paste0("Min YEAR: ", min(permuted$DATE), "\n"))
+  cat(paste0("Max YEAR: ", max(permuted$DATE), "\n"))
+  cat(paste0("Total numbers of papers in the bin: ", nrow(permuted), "\n"))
+  cat("\n")
+  formatted <- as.data.frame(permuted) %>% select(
+    BIBTEXKEY, 
+    DATE, 
+    TITLE, 
+    AUTHOR, 
+    JOURNALTITLE,
+    BOOKTITLE,
+    CATEGORY, 
+    DOI,
+    EDITOR,
+    PUBLISHER
+  )
+  writexl::write_xlsx(formatted, paste("data/", bin, ".xlsx", sep = ""))
+  readr::write_csv(formatted, paste("data/", bin, ".csv", sep = ""))
+}
+```
