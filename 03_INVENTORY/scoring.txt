@@ -1,0 +1,397 @@
+TRANSPARENCY - 10
+(10.0%) A. Open Access
+        [1] a. The paper is available free of charge
+        [0] b. The paper is behind a paywall
+        [0.5] c. The paper is behind a paywall but a pre-print/author version
+        is available.
+(20.0%) B. Pre-registration
+        [0] a. Studies in the paper were not pre-registered.
+        [1] b. Studies in the paper were pre-registered but pre-registration
+        lacks important details or there is an undocumented discrepancy
+        between pre-registration and actual study.
+        [2] c. Studies in the paper were pre-registered and they were
+        conducted and analyzed in accordance with pre-registration.
+(10.0%) 1. Statement of availability
+        [0] a. The paper/article or the article page on the publisher’s
+        website contains no statement of availability.
+        [0.5] b. The paper/article or the article page on the publisher’s
+        website contains a statement of availability for some but not all
+        kinds of data and artefacts applicable.
+        [1] c. The paper/article or the article page on the publisher’s
+        website contains a statement of availability for data and all kinds of
+        artefacts applicable.
+(20.0%) 2. Materials availability
+        [0] a. No materials are available.
+        [1] b. Some but not all materials are available.
+        [1.5] c. All materials are available.
+        [2] d. All materials available in the exact form that was used in the
+        study.
+(20.0%) 3. Data availability
+        [0] a. No data available.
+        [1] b. Some data available.
+        [2] c. All data available.
+        [-1] d. Not applicable.
+(20.0%) 4. Analysis code availability
+        [0] a. Code/script is not available.
+        [2] b. Code/script is available.
+        [-1] c. Not applicable.
+
+
+THEORETICAL BACKGROUND - 10
+(10.0%) 1. Does the paper contain a description of the research
+problem?
+        [1] a. yes
+        [0] b. no
+(10.0%) 2. Does the paper contain a description of a theory or
+theoretical dispute that makes the research problem significant?
+        [1] a. yes
+        [0] b. no
+(10.0%) 3. Does the paper discuss state of the art (provide a
+description of previous scholarship on the topic)?
+        [1] a. yes
+        [0] b. no
+(10.0%) 4. Does the paper provide a clear rationale for the research
+problem in terms of a broader theory or previous empirical research?
+        [1] a. yes
+        [0] b. no
+(10.0%) 1. Does the paper contain a statement of what the studies are
+expected to accomplish (aims, goals, objectives)?
+        [1] a. yes
+        [0] b. no
+(10.0%) 2. Are any goals, aims or objectives expressed in terms of a
+hypothesis/prediction?
+        [1] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(10.0%) 3. Does the paper make it clear how the studies differ from
+previous scholarship?
+        [1] a. yes
+        [0] b. no
+(10.0%) 1. Have any theoretical concepts been defined (characterized
+in terms of other theoretical constructs)?
+        [1] a. yes
+        [0] b. no
+(10.0%) 2. Have all key theoretical concepts invoked in the
+hypotheses/predictions been defined (characterized in terms of other
+theoretical constructs)?
+        [1] a. yes
+        [0] b. no
+(10.0%) 3. Have all conceptual variables in the selected study been
+linked to actual measures (observable variables)?
+        [1] a. yes
+        [0] b. no
+
+
+METHODS (GENERAL) - 16
+(6.25%) 1. General method of recruitment was described (research
+panel, crowdsourcing platform [which?], announcement for students
+[program, year, etc.]).
+        [1] a. yes
+        [0.5] b. partly
+        [0] c. no
+(6.25%) 2. Prescreening criteria are adequately described (location,
+language, education, SES, etc.).
+        [1] a. yes
+        [0] b. no
+(6.25%) 3. Specific dates when recruitment was conducted were
+provided.
+        [1] a. yes
+        [0] b. no
+(6.25%) E. Incentives for participation
+        [0] a. No description of incentives is provided.
+        [1] b. Incentives for participation or lack thereof are clearly
+        described.
+(6.25%) 1. Age (mean, median, standard deviation, range)
+        [0] a. No description.
+        [0.5] b. Only a measure of central tendency (mean, median, etc.)
+        [0.75] b. At least one measure of central tendency (mean, median,
+        etc.) and at least one measure of dispersion (standard deviation,
+        variance, range, etc.).
+        [1] c. At least two measures of central tendency (mean, median, etc.)
+        and at least two measures of dispersion (standard deviation, variance,
+        range, etc.)
+(6.25%) 2. Gender
+        [1] a. yes
+        [0] b. no
+(6.25%) 3. Ethnicity/cultural background/first language (depending on
+the context of the study)
+        [1] a. yes
+        [0] b. no
+(6.25%) 4. Education
+        [1] a. yes
+        [0.5] b. partly
+        [0] c. no
+(6.25%) 5. Important topic-specific characteristics (e.g., if the
+study concerns intuitions of philosophers, then distribution of
+specializations should be described, etc.)
+        [1] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(6.25%) 1. Is it clearly stated whether there were any exclusions
+post-hoc in the study?
+        [1] a. yes
+        [0] b. no
+(6.25%) 2. If participants were excluded from analysis, does the paper
+specify general exclusion criteria employed?
+        [1] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(6.25%) 3. Does the paper justify (explicitly or implicitly) employing
+a specific exclusion criterion?
+        [1] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(6.25%) 1. If some of the participants were rejected because they did
+not meet the demographic criteria, were these criteria presented
+(e.g., nonnatives, extensive philosophical education)?
+        [1] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(6.25%) 2. If attention and/or manipulation check was used, was it
+sufficiently described (exact formulation of the question that was
+used and its place in the set of stimuli given to participants, etc.)?
+        [1] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(6.25%) 3. If used, were time-related constraints (minimum possible
+comprehension and response time) sufficiently described?
+        [0] a. yes
+        [1] b. no
+        [-1] c. not applicable
+(6.25%) J. Method of statistical analysis (computation by
+hand/specific program)
+        [0] a. Not available
+        [1] b. Available
+        [-1] c. Not applicable
+
+
+METHODS (QUESTIONNAIRE) - 12.0
+(8.33%) 1. Description of tools used to display stimuli (paper/online
+survey software/tools/platforms - LimeSurvey, PsychoPy, Qualtrics,
+etc.)
+        [1] a. yes
+        [0] b. no
+(8.33%) 2. Description of implements/equipment used for collecting
+answers (pen, pencil, mouse, keyboard, special controllers,
+touchscreen)
+        [1] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(8.33%) 3. Description of the construction of materials / stimuli
+        [1] a. yes
+        [0] b. no
+(8.33%) 4. Does the paper report the exact formulation of the probes
+used in the study (not in reported speech)?
+        [1] a. yes
+        [0] b. no
+(8.33%) 5. Completeness of stimuli description
+        [1] a. yes
+        [0] b. no
+(4.17%) 6a. Is it specified whether stimuli (vignettes) were presented
+together with the probes (questions) or separately?
+        [0.5] a. yes
+        [0] b. no
+(4.17%) 6b. Is it specified in what order stimuli (vignettes) and
+probes (questions) were presented (or how this was randomized)?
+        [0.5] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(4.17%) 6c. Is it specified how many probes were presented
+simultaneously (on one page/screen)?
+        [0.5] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(4.17%) 6d. Is it clear whether participants were able to go back to
+previous vignettes or questions?
+        [0.5] a. yes
+        [0] b. no
+(4.17%) 6e. Is it clear if all the questions in the questionnaire were
+mandatory and, if not, which ones were and which were not?
+        [0.5] a. yes
+        [0] b. no
+(4.17%) 6f. Are technical measures taken to elicit specific behaviors
+from participants (time delay between questions etc.) adequately
+described?
+        [0.5] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(4.17%) 7a. If nominal scale was used, are exact formulations of
+categories specified?
+        [0.5] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(4.17%) 7b. If Likert (or similar) scale was used, is a numerical
+range provided (e.g., 1 to 7, -3 to 3)?
+        [0.5] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(4.17%) 7c. If Likert (or similar) scale was used with non-numerical
+anchors/labels (e.g., “Strongly agree”), is it clear how many points
+were named (e.g., all, anchors, midpoint) and how exactly the labels
+were formulated?
+        [0.5] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(4.17%) 7d. Is it clear whether the scale was presented horizontally
+or diagonally?
+        [0.5] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(8.33%) 8. Description of study instructions
+        [1] a. yes
+        [0] b. no
+(8.33%) 9. Duration of the probes (e.g., how much time for each
+question? Time limit on completion of questionnaire? Average
+completion time of questionnaire?)
+        [1] a. yes
+        [0] b. no
+
+
+METHODS (NON-QUESTIONNAIRE) - 20.5
+(4.88%) 1. Description of data-collection setting (specific enough to
+permit replication – “university classroom” is not enough)
+        [1] a. yes
+        [0] b. no
+(4.88%) 2. Dates of data collection
+        [1] a. yes
+        [0] b. no
+(4.88%) 3. Times of day when data were collected
+        [1] a. yes
+        [0] b. no
+(4.88%) 4. Duration of data-collection sessions
+        [1] a. yes
+        [0] b. no
+(4.88%) 5. Method of assignment to groups
+        [1] a. yes
+        [0] b. no
+(4.88%) 6. Description of stimuli
+        [1] a. yes
+        [0] b. no
+(4.88%) 7. Completeness of stimuli description
+        [1] a. yes
+        [0] b. no
+(4.88%) 8. Specification of software used to display stimuli,
+including the versions
+        [1] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(4.88%) 9. Description of equipment used to display stimuli
+        [1] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(4.88%) 10. Description of study instructions
+        [1] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(4.88%) 11. Description of how instructions were conveyed to the
+participants:
+        [1] a. yes
+        [0] b. no
+(2.44%) 11a. Orally face-to-face/in writing/recording
+        [0.5] a. yes
+        [0] b. no
+(2.44%) 11b. By whom?
+        [0.5] a. yes
+        [0] b. no
+(2.44%) 11c. When?
+        [0.5] a. yes
+        [0] b. no
+(2.44%) 11d. Is it clear whether the instructions were repeated?
+        [0.5] a. yes
+        [0] b. no
+(2.44%) 11e. Description of comprehension checks
+        [0.5] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(4.88%) 12. Description of each task (specific enough to permit
+replication)
+        [1] a. yes
+        [0] b. no
+(4.88%) 13. Description of all tools/instruments/equipment used to
+collect data
+        [1] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(4.88%) 14. Specification of all software used to collect data
+        [1] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(4.88%) 15. Discussion of validity and reliability of psychometric
+tools
+        [1] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(4.88%) 16. Description of inter-rater validity and rater reliability
+        [1] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(4.88%) 17. Is it clear whether manipulation checks were used?
+        [1] a. yes
+        [0] b. no
+(4.88%) 18. Are manipulation checks described?
+        [1] a. yes
+        [0] b. no
+        [-1] c. not applicable
+
+
+RESULTS - 11.5
+(17.39%) 1. Number of participants
+        [0] a. Incomplete information about participant flow provided
+        [2] b. Complete information about participant flow provided
+        [-1] c. Not applicable
+(4.35%) 2. A flowchart/figure/table of participant flow
+        [0.5] a. yes
+        [0] b. no
+        [-1] c. not applicable
+(8.7%) 3. Method of sample size calculation (power analysis, etc.)
+        [1] a. yes
+        [0] b. no
+(17.39%) 1. Simple descriptive statistics
+        [0] a. Neither central tendency nor dispersion provided for any
+        measure used in the study is given.
+        [1] b. Either central tendency or dispersion (for categorical
+        variables: frequencies) is provided but: a) not both for all measures,
+        b) not for all cells of experimental design (conditions, subgroups,
+        etc.) or not all per-cell sample sizes are provided.
+        [2] c. BOTH central tendency and dispersion provided for all measures
+        (frequencies for categorical variables) used in study and for all
+        cells (conditions, subgroups, etc.) in the study.
+(8.7%) 2. Confidence intervals
+        [0] a. No confidence intervals are reported for any measures.
+        [0.5] b. Confidence intervals are reported only for some measures.
+        [1] c. Confidence intervals are reported for all measures.
+(17.39%) 1. For inferential statistical tests (e.g., t, F, and chi-
+square tests)
+        [0] a. No test statistics are reported (only p-value or information
+        about statistical significance).
+        [1] b. Obtained magnitude or value of the test statistic is reported
+        (with degrees of freedom etc.) for some but not all tests.
+        [2] c. Obtained magnitude or value of the test statistic is reported
+        (with degrees of freedom etc.) for all tests.
+(8.7%) 2. Reporting of p-values
+        [0] a. Most p-values are reported in an inexact manner or not reported
+        at all.
+        [0.5] b. Most but not all p-values are reported in an exact manner.
+        [1] c. All p-values are reported in an exact manner.
+(17.39%) 3. Effect sizes
+        [0] a. Effect sizes are not reported
+        [1] b. Effect sizes are reported in nonstandardized form.
+        [2] c. All or most effect sizes are reported in standardized form.
+
+
+CONCLUSIONS - 4
+(50.0%) A. Interpretation of results
+        [0] a. No discussion of how obtained results relate to the research
+        problem or hypothesis.
+        [1] b. A clear statement of how obtained results relate to the
+        research problem or hypothesis.
+        [2] c. Both a clear statement of how obtained results relate to the
+        research problem or hypothesis and a discussion of statistical
+        conclusion validity.
+(50.0%) Indicate the number of threats to construct validity or
+generalizability discussed in the paper
+        [0] no discussion
+        [1] 1 threat
+        [2] 2 or more
+
+

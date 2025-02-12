@@ -6,6 +6,6 @@ This repository contains the inventory and coding system. Please note that the m
 - `scoring.txt` - Human-readable items in the inventory, including:  
   a) Scores for each question and each option;  
   b) The weight assigned to each question within the section.
-- `inspect_scoring.py` - A script that can be used to generate `scoring.txt` from `XPHITQRI.yaml`. (```python inspect_scoring.py -p XPHITQRI.yaml```)
+- `inspect_scoring.py` - A script that can be used to generate `scoring.txt` from `XPHITQRI.yaml`. (from commandline:```python inspect_scoring.py -p XPHITQRI.yaml```)
 
 **Note:** This is a second version of the original inventory created by KK, BM, and WMH. We obtained permission from WMH to use and revise this work.
