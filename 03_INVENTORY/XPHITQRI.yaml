@@ -420,8 +420,8 @@ q:
   exclumeasure3:
     head: "#### 3. If used, were time-related constraints (minimum possible comprehension and response time) sufficiently described?"
     choices:
-      - ["Y", "a. yes", 0]
-      - ["N", "b. no", 1]
+      - ["Y", "a. yes", 1]
+      - ["N", "b. no", 0]
       - ["NA", "c. not applicable", -1]
   kindofstudy:
     head: "### I. Kind of study:" 

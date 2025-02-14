@@ -155,8 +155,8 @@ used and its place in the set of stimuli given to participants, etc.)?
         [-1] c. not applicable
 (6.25%) 3. If used, were time-related constraints (minimum possible
 comprehension and response time) sufficiently described?
-        [0] a. yes
-        [1] b. no
+        [1] a. yes
+        [0] b. no
         [-1] c. not applicable
 (6.25%) J. Method of statistical analysis (computation by
 hand/specific program)
